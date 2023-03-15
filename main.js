@@ -50,11 +50,11 @@ async function sortNameUp() {
             <td>
                 <div>
                     <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                            <button><i class="uil uil-envelope-star"></i></button><button><i
-                                    class="uil uil-ellipsis-v"></i></button>
-                        </a>
+                    <div class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button><i class="uil uil-envelope-star"></i></button><button><i
+                            class="uil uil-ellipsis-v"></i></button>
+                </div>
         
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="#">High</a></li>
@@ -98,11 +98,11 @@ async function sortNameDown() {
             <td>
                 <div>
                     <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                            <button><i class="uil uil-envelope-star"></i></button><button><i
-                                    class="uil uil-ellipsis-v"></i></button>
-                        </a>
+                    <div class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button><i class="uil uil-envelope-star"></i></button><button><i
+                            class="uil uil-ellipsis-v"></i></button>
+                </div>
         
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="#">High</a></li>
