@@ -1,0 +1,71 @@
+@use "../abstract/variables" as var;
+@use "../abstract/mixins" as mixin;
+
+.dashboard {
+    @include mixin.flex-box(column, start, center);
+    width: 255px;
+    min-height: 1328px;
+    padding: 37px 0 !important;
+    background-color: var.$gray;
+    &__logo {
+        @include mixin.flex-box(row, start, center);
+        margin-bottom: 83px;
+        width: 100%;
+        padding: 0 25px;
+        img {
+            margin-right: 12px;
+        }
+
+        span {
+            font: 700 19px 'Mulish', sans-serif !important;
+            line-height: 24px;
+            letter-spacing: 0.4px;
+            color: var.$ll-gray;
+            opacity: 0.7;
+            transition: .3s ease-in-out;
+
+            &:hover {
+                color: #DDE2FF;
+            }
+
+        }
+    }
+
+    .nav {
+        width: 100%;
+
+        li {
+            width: 100%;
+            padding: 18px 32px;
+            &:hover {
+                background-color: rgba(159, 162, 180, 0.08);
+              
+            }
+            .nav-link {
+                color: #DDE2FF;
+                font-size: 15px;
+                i {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .nav-link {
+            @include mixin.flex-box(row, start, center);
+            gap: 24px;
+            padding: 0;
+            color: var.$ll-gray;
+            transition: .4s ease;
+        }
+    }
+
+    #menu {
+        padding-bottom: 18px;
+        border-bottom: 1px solid rgba(219, 225, 255, 0.08);
+    }
+
+    #menu2 {
+        padding-top: 18px;
+    }
+}
+
